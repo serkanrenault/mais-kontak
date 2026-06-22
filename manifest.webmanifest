@@ -1,0 +1,10 @@
+{
+  "name": "Mais Kontak — SMS Yönetim",
+  "short_name": "Mais Kontak",
+  "description": "OYAK Renault Mais kurum içi SMS yönetim platformu",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f1116",
+  "theme_color": "#0f1116",
+  "icons": [{ "src": "favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mais Kontak</title>
+    <script>
+      (function () {
+        var basePath = "/mais-kontak/";
+        var pathname = window.location.pathname;
+        var relativePath = pathname.indexOf(basePath) === 0 ? pathname.slice(basePath.length) : "";
+        var hashPath = relativePath ? "/" + relativePath.replace(/^\/+|\/+$/g, "") : "/";
+        window.location.replace(basePath + "#" + hashPath + window.location.search + window.location.hash);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
